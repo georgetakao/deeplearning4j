@@ -31,76 +31,80 @@ DeepLearning4J requires [Java 7](http://www.oracle.com/technetwork/java/javase/d
 
 [ND4J is the Java scientific computing engine](http://nd4j.org/) powering our matrix manipulations.The ND4J getting started page is [here](http://nd4j.org/getstarted.html), and you need to install it to run DL4J. 
 
-## <a id="ide-for-java">IDE for Java</a>
+# <a id="ide-for-java">Integrated Development Environment</a>
 
-### What it is
-An Integrated Development Environment ([IDE](http://encyclopedia.thefreedictionary.com/integrated+development+environment)) will allow you to work with our API and build your nets with a few clicks. The IDEs suggested here will use your installed version of Java and can communicate with Maven, which will take care of the dependencies for you. Visit our [dependencies](dependencies.html) page to see how you can easily swap them out as needed.
+### Integrated Development Environmentとは
 
-### Why you need it
-You want a hassle-free development environment so that you only need to think about your code. IDEs typically come with Maven support, but we prefer you to install [Maven](#maven) so you can run commands directly as instructed previously.
+Integrated Development Environment[[IDE]](http://encyclopedia.thefreedictionary.com/integrated+development+environment)とは、ソフトウェアの開発において用いられるエディタ、コンパイラ、リンカ、デバッガ、その他の支援ツールなどを統合・統一化した開発環境のことを指します。IDEには、ソフトウェア開発に必要な最低限のツールがすべて含まれているため、これを導入することで、インストールしたMaveとGitHubの操作を統一して行うことができます。 
+### なぜIDEが必要か
 
-### Is it already installed?
-Just check your installed programs.
+IDSを活用することで、コードを入力するだけで簡単にシステムをセットアップができるようになります。IDEは一般的にMavenとセットで使われるため、Mavenのダウンロードをおすすめしております。
 
-### Installation
-We recommend installing [IntelliJ](https://www.jetbrains.com/idea/download/). The free community edition does the job just fine. [Eclipse](http://books.sonatype.com/m2eclipse-book/reference/creating-sect-importing-projects.html) and  [Netbeans](http://wiki.netbeans.org/MavenBestPractices) are two other popular IDEs.
+### イントール状況の確認
 
-## <a id="maven">Maven</a>
+インストールプログラムをご確認ください。
 
-### What it is
+### インストール方法
 
-Maven is an automated build tool for Java projects (among other [things](http://maven.apache.org/what-is-maven.html)), which locates the latest version of the project libraries (ND4J .jar files) and downloads them automatically to your computer.
+[intellij](https://www.jetbrains.com/idea/download/)のfree community editionをお勧めいたします。
 
-### Why you need it
+以下のIDEも同様にご活用いただけます。
 
-Maven will allow you to install both ND4J and Deeplearning4j projects easily. It works well with Integrated Development Environments ([IDE](#ide-for-java)) such as IntelliJ.
+[Eclipse](http://books.sonatype.com/m2eclipse-book/reference/creating-sect-importing-projects.html) or [Netbeans](http://wiki.netbeans.org/MavenBestPractices).
 
-(Experienced Java developers who prefer not to work with Maven can find the .jar files in our [downloads](downloads.html) page. For an expert user it might be faster, but also more complicated due to dependencies.)
+インストール後、以下のサイトからND4Jプロジェクトをダウンロードいただけます。
 
-### Is it already installed?
+[Intellijの場合](http://stackoverflow.com/questions/1051640/correct-way-to-add-lib-jar-to-an-intellij-idea-project)、
+[Eclipseの場合](http://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse) 、 [Netbeansの場合](http://gpraveenkumar.wordpress.com/2009/06/17/abc-to-import-a-jar-file-in-netbeans-6-5/)
 
-To see if Maven is installed in your machine, enter the following into the command line:
+
+# <a id="maven">Maven</a>
+
+### Mavenとは
+ MavenとはJava用プロジェクト管理ツールです。([Mavenホームページ](http://maven.apache.org/what-is-maven.html)) Mavenをインストールすることで、最新版のND4Jの[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。
+
+### なぜ必要か
+ Mavenを活用することで、より簡単にND4JとDeeplearning4j projectsをインストールすることができます。なお、最終的にダウンロードする[IDE](http://ja.wikipedia.org/wiki/%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)を操作するうえでも、Mavenは役立ちます。([IDE](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java))また、もしMavenの内容をご理解いただいている方は、[当社ホームページ](http://nd4j.org/downloads.html) ページにアクセスいただくことで、この過程をスキップすることができます。
+
+### イントール状況の確認
+コマンドラインに、以下のコードをご入力ください。
 
 		mvn --version
 
-### Installation
-Instructions to install Maven are [here](https://maven.apache.org/download.cgi). Download the compressed file containing Maven's latest stable version.
+### インストール方法
+[Mavenホームページ](https://maven.apache.org/download.cgi)を通じて、無料でダウンロードいただけます
 
 ![Alt text](../img/maven_downloads.png) 
 
-Lower on the same Web page, follow the instructions that pertain to your operating system; e.g. *"Unix-based Operating Systems (Linux, Solaris and Mac OS X)."* They look like this:
-
+ページの下部にある、お使いのOperating Systemごとの説明に沿って、インストールを進めてください。
+ “Unix-based Operating Systems (Linux, Solaris and Mac OS X).”はこのような形で表示されております。
+ 
 ![Alt text](../img/maven_OS_instructions.png) 
 
-* Now, using your IDE, create a new project:
+ここまでの作業を完了すると、IDEを使って新しいプロジェクトを作ることができます。
 
 ![Alt text](../img/new_maven_project.png) 
 
-The images below will walk you through the windows of the IntelliJ New Project Wizard using Maven. First, you name your group and artifact.
+IntelliJのWindowを通じて、下に表示されている画面が表示されます。まずはじめに名前を入力します。
 
 ![Alt text](../img/maven2.png) 
 
-Simply click "Next" on the following screen, and on the screen after that (below), just name your project. ("Deeplearning4j" perhaps?)
-
-![Alt text](../img/maven4.png) 
-
-Now you should go into your pom.xml file within the new Deeplearning4j project in IntelliJ. The POM will take a few seconds to build, but when it's done, it will look something like this:
-
-![Alt text](../img/pom_before.png) 
-
-You will need to add two dependencies: "deeplearning4j-core" and a linear-algebra backend like "nd4j-jblas". You will find both by searching for them on [search.maven.org](http://search.maven.org/#search%7Cga%7C1%7Cdeeplearning4j-core). Click on the "latest version" on this screen. 
-
-![Alt text](../img/search_maven_latest_version.png) 
-
-From there, you want to copy the dependency information:
-
-![Alt text](../img/latest_version_dependency.png) 
-
-And paste it into the "dependencies" section of your pom.xml, which should end up looking like this:
-
-![Alt text](../img/pom_after.png) 
-
-That's it. Once you've pasted the right dependencies into the pom (you may choose others, such as deeplearning4j-scaleout for distributed deep learning, or nd4j-jcublas for GPUs), you're done. You can create a new Java file within IntelliJ under the folders [src/main/java/](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html), and start using Deeplearning4j's API to start building neural nets. (See our [examples](http://deeplearning4j.org/quickstart.html) if you need inspiration.) 
+ "Next"を押していただくと、次のウィンドウが表示されますので、"ND4J"と名前を入力してください。
+ これでIntelliJのpom.xml fileにアクセスでき、以下のよう表示されます。
+ 
+ ![Alt text](../img/nd4j_pom_before.png) 
+ 
+ 
+ 次に<dependencies>セクションにdepemdencyを加えていく必要があります。これはCPUsやGPUsによって異なりますので、それぞれに適応する形で"nd4j-api"と a linear-algebra backend like "nd4j-jblas" か"nd4j-jcublas"を選択してください。これらはすべて <a href="http://search.maven.org/#search%7Cga%7C1%7Cnd4j-jblas">こちら</a>から取得できます。 "latest version" を選択し、コピーを行ってください。
+ 
+ ![Alt text](../img/nd4j_maven.png)
+ 
+ コピーした内容を<dependencies>セクションにペーストすると、以下の表示内容になります。
+ 
+ ![Alt text](../img/nd4j_pom_after.png) 
+ 
+ これで設定は完了になります。これ以降はIntelliJに新たなファイルを作ることも、 ND4Jの APIを利用することも可能になります。
+ もし新たなアイデアが必要な場合には、[intro](http://nd4j.org/introduction.html)をご覧ください。
 
 ## <a id="github">Github</a>
 
