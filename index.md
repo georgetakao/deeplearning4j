@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# What is Deeplearning4j?
+# Deeplearning4jとは何か?
 
-Deeplearning4j is the first commercial-grade, open-source deep-learning library written in Java. It is meant to be used in business environments, rather than as a research tool for extensive data exploration. Deeplearning4j is most helpful in solving distinct problems, like identifying [faces](../facial-reconstruction-tutorial.html), voices, spam or e-commerce fraud. 
+Deeplearning4jはJavaを使った世界初のオープンソースdeep-learning　libraryになります。この技術は広範囲な情報調査というよりも、ビジネスフィールドでご活用いただけます。具体例としては、 [顔認識](../facial-reconstruction-tutorial.html), 音声認識, スパムメールの識別といった、複雑な情報に対して効果的に活用できます。
 
 Deeplearning4j **[integrates with GPUs](http://nd4j.org/gpu_native_backends.html)** and includes a versatile **[n-dimensional array](http://nd4j.org/)** class. DL4J aims to be cutting-edge plug and play, more convention than configuration. By following its conventions, you get an [infinitely scalable](../scaleout.html) deep-learning architecture suitable for Hadoop and other big-data structures. This Java deep-learning library has a domain-specific language for neural networks that serves to turn their multiple knobs. 
 
