@@ -4,32 +4,32 @@ layout: default
 
 # Getting Started
 
-Contents
+コンテンツ
 
 * <a href="#quickstart">Quickstart</a>
-* <a href="#all">Deeplearning4j install (All OS)</a>
-    * <a href="#ide-for-java">IDE</a>
+* <a href="#all">Deeplearning4jのインストール方法(All OS)</a>
+    * <a href="#iIntegrated Development Environment">IDE</a>
     * <a href="#maven">Maven</a>
     * <a href="#github">Github</a>
     * <a href="#linux">Linux</a>
     * <a href="#osx">OSX</a>
     * <a href="#windows">Windows</a>
-* <a href="#source">Working With Source</a>
+* <a href="#source">ソースの取得方法</a>
 * <a href="#eclipse">Eclipse</a>
-* <a href="#trouble">Troubleshooting</a>
+* <a href="#trouble">トラブルシューティング</a>
 * <a href="#next">Next Steps</a>
 
 ## <a name="quickstart">Quickstart</a>
 
-Our [Quickstart](../quickstart.html) shows you how to run your first examples. 
+[Quickstart](../quickstart.html)の項目では、どのようにdeeplearning4jをスタートするか紹介しております。
 
-## <a name="all">Full Install: All OS</a>
+## <a name="all">インストール方法: All OS</a>
 
-DeepLearning4J requires [Java 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) or above. For more complete instructions installing Java, see our Getting Started page for ND4J.
+DeepLearning4Jを実行するためには[Java 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) もしくはaboveが必要となります。Java7のダウンロード方法に関してはND4JのGet startedの項目をご参照ください。
 
 ## ND4J: Numpy for the JVM
 
-[ND4J is the Java scientific computing engine](http://nd4j.org/) powering our matrix manipulations.The ND4J getting started page is [here](http://nd4j.org/getstarted.html), and you need to install it to run DL4J. 
+[ND4J](http://nd4j.org/) は、Javaを基本にしたコンピューターエンジンです。また、DL4Jを実行するためには、[ND4J](http://nd4j.org/getstarted.html)をダウンロードする必要があります。
 
 # <a id="ide-for-java">Integrated Development Environment</a>
 
@@ -106,12 +106,25 @@ IntelliJのWindowを通じて、下に表示されている画面が表示され
  これで設定は完了になります。これ以降はIntelliJに新たなファイルを作ることも、 ND4Jの APIを利用することも可能になります。
  もし新たなアイデアが必要な場合には、[intro](http://nd4j.org/introduction.html)をご覧ください。
 
-## <a id="github">Github</a>
+# <a id="github">GitHub</a>
 
-* Github is **only necessary** to run DL4J examples from the Quickstart, or to help develop the framework by working on the source code. It is not necessary to install Deeplearning4j and use its neural nets, so if you do not plan to help us develop DL4J, you may not need it. In that case, proceed to the IDE. 
-* Download Github for [Mac](https://mac.github.com/), [Windows](https://windows.github.com/), etc. Then enter this command into your terminal (Mac) or Git Shell (Windows):
+### GitHubとは
+ [Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供しています。
 
-      git clone https://github.com/SkymindIO/deeplearning4j
+### なぜ必要か
+ GitHubはこのシステムを使う上で必ずしも必要なものではありません。しかし、ND4Jファイルのダウンロードやプロジェクトの状況、バグの報告をチームメンバー間で共有する際には、GitHubが役立ちます。
+
+### イントール状況の確認
+ インストールプログラムにて、ご確認いただけます。
+
+### インストール方法
+ 以下のURLを通じて無料でダウンロードいただけます。
+ 
+[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
+
+ND4Jのファイルを複製するためには以下の文章をterminal (Mac) もしくは Git Shell (Windows)へ入力してください。
+
+      git clone https://github.com/SkymindIO/nd4j
 
 ### <a name="linux">Linux</a>
 
