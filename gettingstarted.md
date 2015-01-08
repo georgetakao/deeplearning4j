@@ -164,11 +164,11 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
 
 * [Lapack](http://icl.cs.utk.edu/lapack-for-windows/lapack/)をダウンロードしてください。(Lapackは)
 
-* To do so, you will need to install [MinGW 32 bits](http://www.mingw.org/) even if you have a 64-bit computer (the download button is on the upper right), and then download the [Prebuilt dynamic libraries using Mingw](http://icl.cs.utk.edu/lapack-for-windows/lapack/#libraries_mingw). 
+* これらの設定を完了するために、[MinGW　32bits](http://www.mingw.org/)をダウンロードしていただく必要があります。お使いのコンピューターが64-bitであっても、こちらをダウンロードしてください。続けて、[Prebuilt dynamic libraries using Mingw](http://icl.cs.utk.edu/lapack-for-windows/lapack/#libraries_mingw)をダウンロードしてください。 
 
-* Lapack offers the alternative of [VS Studio Solution](http://icl.cs.utk.edu/lapack-for-windows/lapack/#lapacke). You'll also want to look at the documentation for [Basic Linear Algebra Subprograms (BLAS)](http://www.netlib.org/blas/). 
+* Lapackは[VS Studio Solution](http://icl.cs.utk.edu/lapack-for-windows/lapack/#lapacke)も必要になります。 必要であれば、 [Basic Linear Algebra Subprograms (BLAS)](http://www.netlib.org/blas/)文章もご参照ください。
 
-* *For DL4J developers:* Install [Github](https://windows.github.com/). Click on the Git Shell alias. Within that shell, enter the commands below to **git clone** the code repositories of ND4J and Deeplearning4j. 
+* *DL4Jデヴェロッパーの方:*  [Github](https://windows.github.com/)をインストールしてください。. ファイルを複製するためには以下の文章をterminal (Mac) もしくは Git Shell (Windows)へ入力してください。
 
       git clone https://github.com/SkymindIO/nd4j
       git clone https://github.com/SkymindIO/deeplearning4j
