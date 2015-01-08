@@ -195,6 +195,6 @@ DL4Jのソースを取得するためには [Github repo](https://github.com/Sky
 
 * プログラミング内容のコピーをご覧になりたい方は、コチラ[Deeplearning4j's　classes　and　methods](http://deeplearning4j.org/doc/).をクリックしてください。
 
-### <a name="next">Next Steps: MNIST and Running Examples</a>
+### <a name="next">Next Steps: MNISTとサンプルの実行方法</a>
 
-Take a look at the [MNIST tutorial](../mnist-tutorial.html). If you have a clear idea of how deep learning works and know what you want it to do, go straight to our section on [custom datasets](../customdatasets.html). 
+[MNISTについて](../mnist-tutorial.html)をご覧ください。もうすでにdeep　learningの具体的な活用法が決定している場合には、[custom datasets](../customdatasets.html).をクリックしてください。
