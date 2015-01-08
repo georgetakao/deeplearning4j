@@ -128,7 +128,7 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
 
 ### <a name="linux">Linux</a>
 
-* Due to our reliance on Jblas for CPUs, native bindings for Blas are required.
+*正常にインストールを完了するためには、Blasの初期設定が必要になります。
 
         Fedora/RHEL
         yum -y install blas
@@ -191,9 +191,9 @@ DL4Jのソースを取得するためには [Github repo](https://github.com/Sky
 
 *もしDL4Jを活用いただく中でトラブルが発生した場合は, [ND4J](http://nd4j.org/getstarted.html)でgit　cloneを行ってください。次にND4Jでclean Maven　installを行ってください。そして DL4Jを再度インストールしてください。最後にDL4Jでclean Maven　installを行ってください。
 
-* When you run an example, you may get a low [f1 score](../glossary.html#f1), which is the probability that the net's classification is accurate. In this case, a low f1 doesn't indicate poor performance, because the examples train on small data sets. We gave them small data sets so they would run quickly. Because small data sets are less representative than large ones, the results they produce will vary a great deal. For example, on the minuscule example data, our deep-belief net's f1 score currently varies between 0.32 and 1.0.
+* サンプルを実行している時に、分類作業の精確さを示す[f1score](../glossary.html#f1)という数値が低く表示されるかと思います。 このケースでは、低い数値が低い精確性を示している訳ではありません。なぜならば、動作確認作業をの効率を高める為に、少ない量のデータセットしか与えていないからです。少ない量のデータセットは、大きな量のデータセットに比べて精確性は劣ります。例として、非常に少ない量のデータセットから生まれる精確性は、0.32から1.0の間になります。
 
-* Go here for a Javadoc list of [Deeplearning4j's classes and methods](http://deeplearning4j.org/doc/).
+* プログラミング内容のコピーをご覧になりたい方は、コチラ[Deeplearning4j's　classes　and　methods](http://deeplearning4j.org/doc/).をクリックしてください。
 
 ### <a name="next">Next Steps: MNIST and Running Examples</a>
 
