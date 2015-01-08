@@ -136,33 +136,33 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
         Ubuntu
         apt-get install libblas* (credit to @sujitpal)
 
-* If GPUs are broken, you'll need to enter an extra command. First, find out where Cuda installs itself. It will look something like this
+* もしGPUが壊れていた場合、コマンド入力が必要になります。まずはじめに、下記のコマンドを入力し、Cudaがどこにインストールされているかを確認してください。
 
          /usr/local/cuda/lib64
 
-Then enter *ldconfig* in the terminal, followed by the file path to link Cuda. Your command will look similar to this
+次に*ldconfig* を調べていただく際のコマンドは、以下の通りになります。
 
          ldconfig /usr/local/cuda/lib64
 
-If you're still unable to load Jcublas, you will need to add the parameter -D to your code (it's a JVM argument):
+もしJcublasがインストールできない場合には、以下のようにparameter -D をコードに入力いただく必要があります。 (これは一種のJVM になります。):
 
          java.library.path (settable via -Djava.librarypath=...) 
          // ^ for a writable directory, then 
          -D appended directly to "<OTHER ARGS>" 
 
-If you're using IntelliJ as your IDE, this should work already. 
+もしIDEとしてIntelliJをお使いの場合には、既にこの設定は完了しております。
 
 ### <a name="osx">OSX</a>
 
-* Jblas is already installed on OSX.  
+* JblasはすでにOSXに対応しております。
 
 ### <a name="windows">Windows</a>
 
-* The [Maven download page](http://maven.apache.org/download.cgi) has extensive instructions on how to download both Maven and Java under the "Windows section." Proper configuration entails [setting certain environment variables](http://www.computerhope.com/issues/ch000549.htm). 
+* [Maven](http://maven.apache.org/download.cgi)のダウンロードページで、どのようにwindows環境下でJavaとMavenをダウンロードすれば良いかという説明がされております。 この設定を完了するためには、[environment　variables](http://www.computerhope.com/issues/ch000549.htm)が適切な環境である必要があります。 
 
-* Install [Anaconda](http://docs.continuum.io/anaconda/install.html#windows-install). If your system doesn't like the default 64-bit install, try the 32-bit offered on the same download page. (Deeplearning4j depends on Anaconda to use the graphics generator matplotlib.) 
+* [Anaconda](http://docs.continuum.io/anaconda/install.html#windows-install)をインストールしてください。もしシステムが64-bit ない場合は、同じページにある32-bitをダウンロードしてください。 (Deeplearning4jはAnacondaを通じてmatplotlibを活用します。) 
 
-* Install [Lapack](http://icl.cs.utk.edu/lapack-for-windows/lapack/). (Lapack will ask if you have Intel compilers. You do not.)
+* [Lapack](http://icl.cs.utk.edu/lapack-for-windows/lapack/)をダウンロードしてください。(Lapackは)
 
 * To do so, you will need to install [MinGW 32 bits](http://www.mingw.org/) even if you have a 64-bit computer (the download button is on the upper right), and then download the [Prebuilt dynamic libraries using Mingw](http://icl.cs.utk.edu/lapack-for-windows/lapack/#libraries_mingw). 
 
