@@ -173,23 +173,23 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
       git clone https://github.com/SkymindIO/nd4j
       git clone https://github.com/SkymindIO/deeplearning4j
 
-###<a name="source">Working With Source</a>
+###<a name="source">ソースの取得方法</a>
 
-For a deeper dive, check out our [Github repo](https://github.com/SkymindIO/deeplearning4j/). If you want to develop for Deeplearning4j, install Github for [Mac](https://mac.github.com/) or [Windows](https://windows.github.com/). Then git clone the repository, and run this command for Maven:
+DL4Jのソースを取得するためには [Github repo](https://github.com/SkymindIO/deeplearning4j/)にアクセスをしてください。DL4Jをよりご活用いただきたい方は、Githubをインストールしてください。[Macの方はこちら](https://mac.github.com/) or [Windowsの方はこちら](https://windows.github.com/). そしてgit cloneを行い、以下のコードをMavenに入力してください。
 
       mvn clean install -DskipTests -Dmaven.javadoc.skip=true
 
 ###<a name="eclipse">Eclipse</a> 
 
-After running a git clone, enter this command
+ git cloneを行った後、以下のコマンドを入力してください。
 
       mvn eclipse:eclipse 
   
-which will import the source and set everything up. 
+このコマンドを入力することで、ソースをインポートしすべてをセットアップすることができます。
 
-### <a name="trouble">Troubleshooting</a>
+### <a name="trouble">トラブルシューティング</a>
 
-* If you have installed DL4J in the past and now see the examples throwing errors, run a git clone on [ND4J](http://nd4j.org/getstarted.html) in the same root directory as DL4J; run a clean Maven install within ND4J; install DL4J again; run a clean Maven install within DL4J, and see if that fixes things.
+*もしDL4Jを活用いただく中でトラブルが発生した場合は, [ND4J](http://nd4j.org/getstarted.html)でgit cloneを行ってください。; run a clean Maven install within ND4J; install DL4J again; run a clean Maven install within DL4J, and see if that fixes things.
 
 * When you run an example, you may get a low [f1 score](../glossary.html#f1), which is the probability that the net's classification is accurate. In this case, a low f1 doesn't indicate poor performance, because the examples train on small data sets. We gave them small data sets so they would run quickly. Because small data sets are less representative than large ones, the results they produce will vary a great deal. For example, on the minuscule example data, our deep-belief net's f1 score currently varies between 0.32 and 1.0.
 
