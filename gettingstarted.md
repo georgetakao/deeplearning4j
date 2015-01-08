@@ -189,7 +189,7 @@ DL4Jのソースを取得するためには [Github repo](https://github.com/Sky
 
 ### <a name="trouble">トラブルシューティング</a>
 
-*もしDL4Jを活用いただく中でトラブルが発生した場合は, [ND4J](http://nd4j.org/getstarted.html)でgit　cloneを行ってください。次にND4Jでclean Maven　installを行ってください。そして DL4Jを再度インストールしてください。DL4Jでclean Maven　installを行ってください。
+*もしDL4Jを活用いただく中でトラブルが発生した場合は, [ND4J](http://nd4j.org/getstarted.html)でgit　cloneを行ってください。次にND4Jでclean Maven　installを行ってください。そして DL4Jを再度インストールしてください。最後にDL4Jでclean Maven　installを行ってください。
 
 * When you run an example, you may get a low [f1 score](../glossary.html#f1), which is the probability that the net's classification is accurate. In this case, a low f1 doesn't indicate poor performance, because the examples train on small data sets. We gave them small data sets so they would run quickly. Because small data sets are less representative than large ones, the results they produce will vary a great deal. For example, on the minuscule example data, our deep-belief net's f1 score currently varies between 0.32 and 1.0.
 
