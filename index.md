@@ -6,7 +6,7 @@ layout: default
 
 Deeplearning4jはJavaを使った世界初のオープンソースdeep-learning　libraryになります。この技術は広範囲な情報調査というよりも、ビジネスフィールドでご活用いただけます。具体例としては、 [顔認識](../facial-reconstruction-tutorial.html), 音声認識, スパムメールの識別といった、複雑な情報に対して効果的に活用できます。
 
-Deeplearning4jはGPUを利用し、実行されます。 **[詳しくはコチラ](http://nd4j.org/gpu_native_backends.html)** そして、多様性のある**[n-dimensional array](http://nd4j.org/)**を含んでおります。DL4Jは最先端のプラグアンドプレイサービスとなることを目指しております。, more convention than configuration. これらの規定通りに設定していくことで、Hadoopとその他のbig-dataに適した[無限の可能性をもつ](../scaleout.html) deep-learning に関するアーキテクチャを手に入れることができます。このJavaを使ったdeep-learning libraryはニュートラルネットを操作するため必要な、特定の言語を含んでおります。
+Deeplearning4jはGPUを利用し、実行されます。 **[詳しくはコチラ](http://nd4j.org/gpu_native_backends.html)** そして、多様性のある**[n-dimensional array](http://nd4j.org/)**を含んでおります。DL4Jは、最先端のプラグアンドプレイサービスとなることを目指しております。これらの規定通りに設定していくことで、Hadoopとその他のbig-dataに適した[無限の可能性をもつ](../scaleout.html) deep-learning に関するアーキテクチャを手に入れることができます。このJavaを使ったdeep-learning libraryはニュートラルネットを操作するため必要な、特定の言語を含んでおります。
 
 Deeplearning4jは**distributed deep-learning framework** と通常のdeep-learning frameworkを活用しています。 (一つのスレッドで実行されることもあります。). DL4Jのトレーニングは大きな情報を含むクラスターの中でiterative　reduceというアルゴリズムを通じて行われます。JVMに対応する形で、Java,Scala,Clojureはすべて同様に利用することができます。
 
