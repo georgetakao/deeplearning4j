@@ -14,8 +14,8 @@ Deeplearning4jは**distributed deep-learning framework** と通常のdeep-learni
 
 それぞれのリンク先のページ先で、セットアップ方法と、サンプルデータといくつかのディープラーニングネットワークを確認することができます。これらはシングルスレッド並びにマルチスレッドを含みます。 [Restricted　Boltzmann　machines](../restrictedboltzmannmachine.html), [deep-belief networks](../deepbeliefnetwork.html), [Deep Autoencoders](http://deeplearning4j.org/deepautoencoder.html), [Recursive Neural Tensor Networks](http://deeplearning4j.org/recursiveneuraltensornetwork.html), [Convolutional Nets](http://deeplearning4j.org/convolutionalnets.html) and　[Stacked　Denoising　Autoencoders](../stackeddenoisingautoencoder.html). 
 
-ニュートラルネットに関する簡単な説明は[コチラ](../overview.html)をご覧ください。簡単に言うと、Deeplearning4jは浅いニュートラルネットを組み合わせることで深いニュートラルネットの層を作り出しております。このフレキシブルな仕組みが制限されたBoltzmann machinesやautoencoders、convolutional netsとrecurrent netsを自由に組み合わせることができます。 -- all in a distributed, production-grade framework.
+ニュートラルネットに関する簡単な説明は[コチラ](../overview.html)をご覧ください。簡単に言うと、Deeplearning4jは浅いニュートラルネットを組み合わせることで深いニュートラルネットの層を作り出しております。このフレキシブルな仕組み、が制限されたBoltzmann machinesやautoencoders、convolutional netsとrecurrent netsを自由に組み合わせることを可能にします。これらの操作は、端末ごとに独立して操作することができます。
 
-There are a lot of knobs to turn when you're training a deep-learning network. We've done our best to explain them, so that Deeplearning4j can serve as a DIY tool for Java, Scala and Clojure programmers. If you have questions, please join [our Google Group](https://groups.google.com/forum/#!forum/deeplearning4j); for premium support, [contact us at Skymind](http://www.skymind.io/contact.html). [ND4J is the Java scientific computing engine](http://nd4j.org/) powering our matrix manipulations.
+deep-learningのネットワークをトレーニングすることに関しては、様々な選択肢があります。 JavaとScala、そしてClojureのプログラマーの方が、自由にそれぞれに合う形に作り上げることができるプログラムがDeeplearning4jです。 ご質問は[当社グーグルグループ](https://groups.google.com/forum/#!forum/deeplearning4j); プレミアムサポートが必要な場合は, [当社ホームページ](http://www.skymind.io/contact.html). [ND4Jについて](http://nd4j.org/) 
 
 ![Alt text](../img/logos_8.png)
