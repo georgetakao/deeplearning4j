@@ -14,4 +14,4 @@ deep-learningのネットワークをトレーニングすることに関して�
 
 Deeplearning4jはすでに、[Wired](http://www.wired.com/2014/06/skymind-deep-learning/),[GigaOM](http://gigaom.com/2014/06/02/a-startup-called-skymind-launches-pushing-open-source-deep-learning/),[Businessweek](http://www.businessweek.com/articles/2014-06-03/teaching-smaller-companies-how-to-probe-deep-learning-on-their-own),[Venturebeat](http://venturebeat.com/2014/06/02/skymind-launches-with-open-source-plug-and-play-deep-learning-features-for-your-app/)　and　[The　Wall　Street　Journal](http://blogs.wsj.com/cio/2014/06/03/the-morning-download-apple-relies-on-ecosystem-for-innovation/)といった主要記事にも紹介されております。. DL4Jに関するワークショップは、サンフランシスコにある[GalvanizeU](http://www.galvanizeu.com/)から、お申込みいただくことができます。
 
-[ND4Jとは](http://nd4j.org/) . ([Github](https://github.com/SkymindIO/nd4j/)もあわせてご参照ください。)
+ND4Jに関しては[コチラ](http://nd4j.org/)のページでまとめてあります。([Github](https://github.com/SkymindIO/nd4j/)ファイルもあわせてご参照ください。)
