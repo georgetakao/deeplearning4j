@@ -3,11 +3,10 @@ title:
 layout: default
 ---
 
-# About us
+# Skymindについて
+[Skymind](http://www.skymind.io)はサンフランシスコをベースに設立された、ビジネスインテリジェンスおよびエンタープライズソフトウェア会社です。当社が運営するDeeplearning4jは、deep-learning技術を同時に多くのデバイスで活用することができる、Java環境のオープンソースプラットフォームです。私たちはデータ科学者、deep-learningのスペシャリスト、Javaのプログラマー、そしてロボットの専門家をチームメンバーとしております。
 
-Deeplearning4j is an open-source, distributed deep-learning project in Java spearheaded by the people at [Skymind](http://www.skymind.io), a San Francisco-based business intelligence and enterprise software firm. We're a team of data scientists, deep-learning specialists, Java programmers and semi-sentient robots. 
-
-Everyone's heard of big data. By releasing these open-source deep-learning tools, we hope to usher business into an era of smart data, which is why we chose to implement them in Java. By using these tools, data scientists can begin to see the power of the deep-learning algorithms already employed by Google, Facebook, Microsoft, Baidu and Netflix, all of which have dedicated deep-learning teams. 
+今や、ビックデータを知らない人はいなくなりました。私たちはdeep-learningツールを使って、現在のビジネススタイルをスマートデータの時代へ変えていくことを望んでおります。これは私たちがJavaを操作環境として設定したことの理由でもあります。これらのツールを使うことで、現在Google,Facebook, Microsoft,Baidu,そしてNetflixといった、ITカンパニーがdeep-learningチームを鍛える為に使っているアルゴリズムのパワーを実感することができます。
 
 These deep-learning algorithms are capable of unsupervised learning that removes the brunt of menial feature extraction from data scientists, allowing them to concentrate on more interesting work. More generally, we believe they will help us create a safer, smarter, more transparent and more efficient society. 
 
