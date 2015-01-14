@@ -21,7 +21,7 @@ DeepLearning4jは[ND4J](http://nd4j.org/)を数学的なオペレーションツ
 
 [ND4J バックエンドダウンロード](http://nd4j.org/downloads.html)のように、Deeplearning4jはND4J使うことで、実行することができます。ページ下部にあるリンク先で、それぞれの環境下にあったものをダウンロードください。
 
-#ネイティブ
+#CPUs
 
 ## Jblas
 
