@@ -5,21 +5,21 @@ layout: default
 
 # ND4J
 
-DeepLearning4j uses [ND4J](http://nd4j.org/) as its scientific computing kernel for matrix operations. To get started with Deeplearning4j, you need to pick an [ND4J backend](http://nd4j.org/downloads.html), which will rely on GPUs or native computations. 
+DeepLearning4jは[ND4J](http://nd4j.org/)を数学的なオペレーションツールの核として活用しております。Deeplearning4jを始めるためには、[ND4Jのバックエンド](http://nd4j.org/downloads.html)が必要になります。このバックエンドは、GPUか初期設定されている状況次第で決定されます。
 
-##Why Swappable Backends?
+##なぜ交換可能なバックエンドを使うのか?
 
-Many deep learning researchers have standardized on Cuda GPUs for parallel processing and matrix computations. Unfortunately, industry practicioners have to grapple with more limited options due to legacy hardware. Even facing such limitations, throwing CPUs at a deep-learning problem can significantly increase its speed. 
+多くのdeep-learning技術者の方は、並行して作業を進める為そしてにCuda環境を標準設定しているかと思います。しかし、多くの専門家が昔ながらのハードウェアを使うことで、より制限された環境下で作業していることも事実です。このような制限された環境下でも、CPUが解決する問題にdeep-learningを応用することで、スピードを大きく高めることができます。
 
-We created ND4J because no JVM Blas-based libraries allowed users to have a swappable interface for different fast-matrix operations. Swappable backends (a la [SLF4J](http://slf4j.org/)) were the only answer. 
+現在JVM Blasをベースとしたライブラリは、どれも異なったスピーディーな数学的オペレーションを行うための交換可能な環境を持つことに対応しておりません。こういった環境下に問題意識を持ち、私たちはND4Jを創り出しました。交換可能なバックエンドはその唯一の答えです。( [SLF4J](http://slf4j.org/))
 
-In addition, we felt a common API for creating machine-learning algorithms was a worthy goal. No one wants to rewrite their libraries if they find that their matrix run-time is faster.
+加えて、私たちは一般的なAPIを活用して作り上げるmachine-learningのアルゴリズムではこの問題を解決しきれていないと思います。なぜならば、私たちのアルゴリズムの方が、スピードがはるかに速いからです。
 
-##Downloads
+##ダウンロード
 
-Below, you will find bundled downloads of deeplearning4j for GPUs and native, among other components.
+ページ下部にあるリンクを通じて、deeplearning4jに必要なものをダウンロードすることができます。
 
-Much like [ND4J backend downloads](http://nd4j.org/downloads.html), Deeplearning4j needs an implementation of ND4J to use. Below are several binary bundles you can use bundled with different backends.
+[ND4J バックエンドダウンロード](http://nd4j.org/downloads.html)のように、Deeplearning4jはND4J使うことで、実行することができます。ページ下部にあるリンク先で、それぞれの環境下にあったものをダウンロードください。
 
 #Native
 
