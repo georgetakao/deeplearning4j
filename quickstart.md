@@ -3,22 +3,21 @@ title:
 layout: default
 ---
 
-#Video: Run DL4J Examples in Minutes
+#Video: DL4Jで簡単にサンプルを実行するためには
 
 <iframe width="750" height="560" src="//www.youtube.com/embed/2lwsHKUrXMk" frameborder="0" allowfullscreen></iframe>
 
-#Quickstart
+#クイックスタート
 
-* First, test which version of Java you have (and whether you have it at all), by typing the following into the command line:
+* まずはじめに、 どのバージョンのJavaを持っているかチェックをします。以下のコードをコマンドラインに入力することで確認することができます。:
 
 		java -version
 
-* If you don't have Java 7 installed on your machine, download the [Java Development Kit (JDK) here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). The download will vary by operating system. For newer Macs, you'll want the file on the first line to mention Mac OS X (the number after *jdk-7u* increments with each update). It will look something like this:
+* もしJava　7を持ていなかった場合は、[コチラ](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)のサイトからダウンロードを行ってください。ダウンロード方法は、それぞれのオペレーティングシステムによって異なります。最新のMacの方はMac OS Xと記載のあるところから、ダウンロードをしてください。 (この*jdk-7u* という数字に続く部分が、アップグレードの状態を示しております)。以下がその表示内容となります。:
 
 		Mac OS X x64 185.94 MB -  jdk-7u67-macosx-x64.dmg
 
-* Due to our reliance on Jblas for CPUs, native bindings for Blas are required.
-
+*　Jblasの信頼性を確保するためのに、Blasの初期設定が必要となります。
 		OSX
 		Already Installed
 		
@@ -31,14 +30,14 @@ layout: default
 		Windows
 		See http://icl.cs.utk.edu/lapack-for-windows/lapack/
 
-* Since DL4J uses cross-platform tooling to make Python calls for data visualization and debugging, you'll also want to download [Anaconda here](http://continuum.io/downloads). Once you have Anaconda installed, you can test whether you have the necessary libs by entering this in a Python window:
+* DL4Jはデータの可視化とデバッグにクロスプラットフォームツールを活用しているため、 [Anaconda](http://continuum.io/downloads)が必要となります。一度Anacondaをインストールすると、Pythonに以下のコードを入力することで必要なライブラリがコンピュータに入っているか、確認することができます。:
 
 		import numpy
 		import pylab as pl
 
 ![Alt text](../img/python_shot.png)
 
-These tools will generate the visualizations that allow you to debug your neural nets as they train. Normalish distributions are a good sign. The visualizations occasionally generate a list of errors on Macs -- that does not stop the nets from training.
+これらのツールは、ニューラルネットをデバックする際の will generate the visualizations that allow you to debug your neural nets as they train. Normalish distributions are a good sign. The visualizations occasionally generate a list of errors on Macs -- that does not stop the nets from training.
 
 * Next, git clone the DL4J examples:
 
