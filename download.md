@@ -13,7 +13,7 @@ DeepLearning4jは[ND4J](http://nd4j.org/)を数学的なオペレーションツ
 
 現在JVM Blasをベースとしたライブラリは、どれも異なったスピーディーな数学的オペレーションを行うための交換可能な環境を持つことに対応しておりません。こういった環境下に問題意識を持ち、私たちはND4Jを創り出しました。交換可能なバックエンドはその唯一の答えです。( [SLF4J](http://slf4j.org/))
 
-加えて、私たちは一般的なAPIを活用して作り上げるmachine-learningのアルゴリズムではこの問題を解決しきれていないと思います。なぜならば、私たちのアルゴリズムの方が、スピードがはるかに速いからです。
+加えて、私たちは一般的なAPIを活用して作り上げるmachine-learningのアルゴリズムではこの問題を解決しきれていないと考えております。なぜならば、私たちのアルゴリズムの方が、スピードがはるかに速いからです。
 
 ##ダウンロード
 
@@ -21,11 +21,11 @@ DeepLearning4jは[ND4J](http://nd4j.org/)を数学的なオペレーションツ
 
 [ND4J バックエンドダウンロード](http://nd4j.org/downloads.html)のように、Deeplearning4jはND4J使うことで、実行することができます。ページ下部にあるリンク先で、それぞれの環境下にあったものをダウンロードください。
 
-#Native
+#ネイティブ
 
 ## Jblas
 
-### Latest
+### 最新版
 * [tar archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/jblas/deeplearning4j-dist-bin.tar.gz)
 * [bz2 archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/jblas/deeplearning4j-dist-bin.tar.bz2)
 * [zip archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/jblas/deeplearning4j-dist-bin.zip)
@@ -37,7 +37,7 @@ DeepLearning4jは[ND4J](http://nd4j.org/)を数学的なオペレーションツ
 
 ## Netlib Blas
 
-### Latest
+### 最新版
 * [tar archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/netlib-blas/deeplearning4j-dist-bin.tar.gz)
 * [bz2 archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/netlib-blas/deeplearning4j-dist-bin.tar.bz2)
 * [zip archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/netlib-blas/deeplearning4j-dist-bin.zip)
@@ -51,7 +51,7 @@ DeepLearning4jは[ND4J](http://nd4j.org/)を数学的なオペレーションツ
 
 ## Jcublas
 
-###Latest
+### 最新版
 * [tar archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/jcublas/deeplearning4j-dist-bin.tar.gz)
 * [bz2 archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/jcublas/deeplearning4j-dist-bin.tar.bz2)
 * [zip archive](https://s3.amazonaws.com/dl4j-distribution/releases/latest/jcublas/deeplearning4j-dist-bin.zip)
